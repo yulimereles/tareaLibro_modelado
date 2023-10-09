@@ -14,7 +14,6 @@ const autor = new Schema({
         required: true,
     },
     
-
 }, {
     timestamps: true,
     versionKey: false,
@@ -22,4 +21,4 @@ const autor = new Schema({
 );
 
 const AutorModel = model('Autor', autor);
-export { AutorModel}
+export { AutorModel };

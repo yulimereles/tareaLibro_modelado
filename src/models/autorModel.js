@@ -20,5 +20,5 @@ const autor = new Schema({
 }
 );
 
-const AutorModel = model('Autor', autor);
-export { AutorModel };
+const AutorModel = model('Autor', autor)
+export { AutorModel }

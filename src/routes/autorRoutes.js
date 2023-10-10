@@ -6,13 +6,13 @@ import {
     ctrlGetAutorById,
     ctrlUpdateAutor
 } from '../controllers/autorControllers.js'
-const autorRouter = Router()
+const autorrRouter = Router()
 
-autorRouter.get('/', ctrlGetAllAutor)
-autorRouter.post('/',  ctrlCreateNewAutor)
+autorrRouter.get('/', ctrlGetAllAutor)
+autorrRouter.post('/',  ctrlCreateNewAutor)
 
-autorRouter.get('/:id', ctrlGetAutorById) //traer solo por su id, uno solo.
-autorRouter.put('/:id',  ctrlUpdateAutor) //atualizar 
-autorRouter.delete('/:id', ctrlDeleteAutor)//eliminar
+autorrRouter.get('/:id', ctrlGetAutorById) //traer solo por su id, uno solo.
+autorrRouter.put('/:id',  ctrlUpdateAutor) //atualizar 
+autorrRouter.delete('/:id', ctrlDeleteAutor)//eliminar
 
-export { autorRouter }
+export { autorrRouter }

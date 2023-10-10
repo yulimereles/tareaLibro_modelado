@@ -1,5 +1,6 @@
 import { AutorModel } from '../models/autorModel.js'
 
+//se crea un nuevo autor y se maneja las solicitudes de creacion nuevo autor
 export const ctrlCreateNewAutor = async ( req, res) => {
     const { content } = req.body
 try {
